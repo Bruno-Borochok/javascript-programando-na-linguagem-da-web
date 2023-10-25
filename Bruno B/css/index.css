@@ -8,8 +8,8 @@ body{
 }
 
 header{
-	background-color: #333;
-	height: 3em;
+	background-color: #ff0000;
+	height: 4em;
 	color: #FFF;
 	margin-bottom: 1em;
 }
@@ -18,9 +18,10 @@ header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+
 }
 header h2{
-	font-size: 2em;
+	font-size: 4em;
 	display:inline-block;
 	vertical-align:	middle;
 }
@@ -33,26 +34,27 @@ header .container:before{
 }
 
 .container-img{
-    width: 40%;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-left: 380px;
+	width: 40%;
+	height: 300px;
+	margin-top: 9px;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-left: 480px;
 }
 
 .container{
-	width: 60%;
+	float: right;
+	width: 40%;
 	height: 100%;
-	margin: 0 auto;
+	margin-right: 50px;
 }
 
 .container-tabela{
-    float: left;
-    height: 50%;
-    width:50%;
-    margin-left: 50px;
-
+	float: left;
+	height: 50%;
+	width:50%;
+	margin-left: 50px;
+	
 }
 
 section{
@@ -66,19 +68,20 @@ section h2{
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
+
 }
 
 table{
 	width: 100%;
-	margin-bottom : .2em;
+	margin-bottom : .1em;
     table-layout: fixed;
-
+	border: 1px solid #616161;
 }
 
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #000000;
 	text-align: center;
 }
 
@@ -97,8 +100,8 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
-	padding: .7em;
+	border: 1px solid #000000;
+	padding: .8em;
 	width: 100%;
 }
 
@@ -112,6 +115,15 @@ label{
 	display: inline-block;
 	padding: 10px 0px;
 }
+.provisorio{
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ffffff;
+	padding: .7em;
+	width: 100%;
+}
 
 button{
 	padding: .5em 2em;
@@ -122,8 +134,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#ff0000;
+	border-color: #6b0202;
 	width: 20%;
     display: block;
     clear: both;
@@ -147,7 +159,7 @@ button[disabled=disabled], button:disabled {
 }
 
 .campo-invalido{
-	border: 1px solid rgb(255, 0, 0);
+	border: 1px solid red;
 }
 
 .paciente-invalido {
@@ -172,4 +184,3 @@ button[disabled=disabled], button:disabled {
 .invisivel {
 	display: none;
 }
-
